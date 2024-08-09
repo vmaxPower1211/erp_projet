@@ -1,0 +1,85 @@
+.journal {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.journal .box-1 {
+    width: 150vh;
+    border-radius: 10px;
+    background: #EFEFEF;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.journal .box-1 .top-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.journal .box-1 h1 {
+    font-family: 'Exo';
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.rightcp {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.rightcp input[type=text] {
+    border: 1px solid #ccc; 
+    width: 260px;
+    height: 25px; 
+    font-size: 13px;
+    font-family: 'Inter';
+    margin-right: 10px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: transparent;
+    display: inline;
+    top: 0;
+}
+
+.journal .rightcp .search-icon {
+    position: absolute;
+    display: inline-flex;
+    right: 8vh;
+    color: #ccc;
+}
+
+.journal .rightcp .btn-sort {
+    margin: auto;
+    width: 26px;
+    height: 25px;
+    background-color: #8467FF;
+    color: white;
+    border-radius: 5px;
+}
+
+.journal .box-1 .journal-label {
+    width: 140vh;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FFF;
+    align-items: center;
+    justify-content: left;
+    padding: 0 65px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.journal .box-1 .journal-label p {
+    margin-right: 90px;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Exo';
+}

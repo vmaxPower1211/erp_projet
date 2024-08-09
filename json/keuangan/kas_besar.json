@@ -1,0 +1,31 @@
+[{
+    "Bulan": "Jan",
+    "profitloss": 200,
+    "journal": 400,
+    "balance": 300
+}, {
+    "Bulan": "Feb",
+    "profitloss": 300,
+    "journal": 500,
+    "balance": 200
+}, {
+    "Bulan": "Mar",
+    "profitloss": 600,
+    "journal": 300,
+    "balance": 200
+}, {
+    "Bulan": "Apr",
+    "profitloss": 400,
+    "journal": 100,
+    "balance": 100
+}, {
+    "Bulan": "Mei",
+    "profitloss": 500,
+    "journal": 200,
+    "balance": 200
+}, {
+    "Bulan": "Jun",
+    "profitloss": 200,
+    "journal": 300,
+    "balance": 300
+}]

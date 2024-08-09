@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Exo';
+    src: url('./assets/font/Exo-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('./assets/font/Exo2-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('./assets/font/Manrope-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/font/Inter-Medium.ttf') format('truetype');
+}

@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Manrope'; */
+}
+.semualap-container {
+    background-color: #EFEFEF;
+    width: 150vh;
+    height: fit-content;
+    border-radius: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.20);
+    margin-bottom: 20px;
+}
+.semualap-container p {
+    font-size: 20px;
+    color: #414141;
+    font-weight: 700;
+    margin-left: 2.2rem;
+    margin-top: -20px;
+
+}
+.semualap-container span {
+    font-weight: 500;
+}
+.semualap-container .semualap-top-table {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 35px;
+    margin-right: 35px;
+    justify-content: right;
+}
+
+/*======== css untuk top tabel search containernya ========*/
+.semualap-container .semualap-top-table .search-container {
+    /*css untuk mengatur list planning, kotak search, icon sorting*/
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: -20px;
+}
+
+.semualap-container .semualap-top-table .search-container .search-input {
+    /*css untuk mengatur jarak antara kotak search dengan sorting icon*/
+    justify-content: space-between;
+}
+
+.semualap-container .semualap-top-table .search-container .search-input .form-control {
+    /*css untuk mengatur kotak search input*/
+    width: 13rem;
+    padding: 10px 30px 10px 10px;
+    height: 25px;
+    border: 1px solid #808080;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: 'Inter';
+    color: #808080;
+    margin-right: 20px;
+}
+
+.semualap-container .semualap-top-table .search-container .search-input .search-icon {
+    /*css untuk mengatur search icon*/
+    position: absolute;
+    top: 46%;
+    right: 3.6rem;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.semualap-container .semualap-top-table .search-container .btn-sort { 
+    width: 26px;
+    height: 25px;
+    background-color: #8467FF;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,158 @@
+/* ======= css untuk container keseluruhan ======= */
+.grafik_keuangan_dashboard {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    width: 71vw;
+}
+/* ======= css untuk container untuk top table, card, dan chart ======= */
+.grafik_keuangan_dashboard .grafik_keuangan_dashboard2{
+    background: #EFEFEF;
+    border-radius: 15px;
+    height: fit-content;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    width: 151vh;
+}
+
+/*======== css untuk top tabel search containernya ========*/
+.grafik_keuangan_dashboard .grafik_keuangan_dashboard2 .keuanganDashboard-top-table {
+    display: flex;
+    padding-top: 10px;
+}
+
+.grafik_keuangan_dashboard .grafik_keuangan_dashboard2 .keuanganDashboard-top-table .search-container {
+    /*css untuk mengatur list planning, kotak search, icon sorting*/
+    margin-left: 49vw;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    float: right;
+    margin-top: 18px;
+}
+
+.grafik_keuangan_dashboard .grafik_keuangan_dashboard2 .keuanganDashboard-top-table .search-container .search-input {
+    /*css untuk mengatur jarak antara kotak search dengan sorting icon*/
+    justify-content: space-between;
+}
+
+.grafik_keuangan_dashboard .grafik_keuangan_dashboard2 .keuanganDashboard-top-table .search-container .search-input .form-control {
+    /*css untuk mengatur kotak search input*/
+    width: 13rem;
+    padding: 10px 30px 10px 10px;
+    height: 25px;
+    border: 1px solid #808080;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #808080;
+    margin-right: 20px;
+}
+
+.grafik_keuangan_dashboard .grafik_keuangan_dashboard2 .keuanganDashboard-top-table .search-container .search-input .search-icon {
+    /*css untuk mengatur search icon*/
+    position: absolute;
+    top: 55%;
+    right: 3.8rem;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.grafik_keuangan_dashboard .grafik_keuangan_dashboard2 .keuanganDashboard-top-table .search-container .btn-sort { 
+    width: 26px;
+    height: 25px;
+    background-color: #8467FF;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* ======= css untuk container keseluruhan ======= */
+.grafik_keuangan_dashboard .grafik_keuangan_dashboard2 .card-chart {
+    border-radius: 1vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 3vh;
+    
+}
+
+.grafik_keuangan_dashboard .grafik_keuangan_dashboard2 .card-chart .total {
+    padding-bottom: 20px;
+    background: white;
+    border-radius: 1vw 1vw 0 0;
+    width: 53.8rem;
+    margin: 0;
+    padding-left: 3rem;
+}
+
+.grafik_keuangan_dashboard .grafik_keuangan_dashboard2 .card-chart .grafik-keuangan-dashboard-container {
+    border-radius: 0 0 1vw 1vw;
+    margin-top: -6px;
+}
+
+
+.grafik_keuangan_dashboard .grafik_keuangan_dashboard2 .all-report-card .report-case1 {
+    /* margin-left: 6vw; */
+    margin-top: 3vh;
+    width: 20.5vw;
+    height: 18vh;
+    /* background-image: linear-gradient(45deg, #005687, #0094E8); */
+    border-radius: 0.7vw;
+}
+.grafik_keuangan_dashboard .grafik_keuangan_dashboard2 .all-report-card .report-case2 {
+    margin-left: 2vw;
+    margin-top: 3vh;
+    width: 20.5vw;
+    height: 18vh;
+   /* background-image: linear-gradient(45deg, #0DBEC9, #057E86); */
+    border-radius: 0.7vw;
+}
+.grafik_keuangan_dashboard .grafik_keuangan_dashboard2 .all-report-card .report-case3 {
+    margin-left: 2vw;
+    margin-top: 3vh;
+    width: 20.5vw;
+    height: 18vh;
+    /* background-image: linear-gradient(45deg, #005687, #0094E8); */
+    border-radius: 0.7vw;
+}
+.card-font {
+    margin-left: 1vw;
+    margin-top: 1vh;
+    font-size: 1.2vw;
+    color: black;
+}
+.report-jumlah-1 {
+    text-align: center;
+    margin-top: 1.5vw;
+    color:#a155b9;
+    font-size: 2rem;
+}
+.report-jumlah-2 {
+    text-align: center;
+    margin-top: 1.5vw;
+    color:#f765b3;
+    font-size: 2rem;
+}
+.report-jumlah-3 {
+    text-align: center;
+    margin-top: 1.5vw;
+    color:#165baa;
+    font-size: 2rem;
+}
+.card-font-4 {
+    text-align: left;
+    font-size: 1.2vw;
+    color: black;
+}
+.report-jumlah-4 {
+    text-align: left;
+    color: #0b1354;
+}
+.total {
+    margin-left: 6vw;
+    margin-bottom: 2vh;
+    padding-top: 4vh;
+}

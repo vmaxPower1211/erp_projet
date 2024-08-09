@@ -1,0 +1,144 @@
+@import 'ag-grid-community/styles/ag-grid.css';
+@import 'ag-grid-community/styles/ag-theme-alpine.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope';
+}
+
+/*======== css untuk top tabel ========*/
+.pemasukan-container {
+    background-color: #EFEFEF;
+    width: 150vh;
+    height: 128vh;
+    border-radius: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.20);
+    margin-bottom: 20px;
+}
+
+.pemasukan-container p { /*untuk mengatur judul pada pemasukan css*/
+    font-size: 20px;
+    color: #414141;
+    font-family: 'Exo';
+    font-weight: 700;
+    margin-left: 4px;
+    margin-top: 1rem;
+    margin-left: 2.2rem;
+}
+
+.pemasukan-container .pemasukan-top-table {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 35px;
+    margin-right: 35px;
+    justify-content: right;
+}
+
+
+/*======== css untuk tutup buku ========*/
+.pemasukan-container .pemasukan-top-table .tutup-buku-container {
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: -33rem;
+}
+
+
+
+/*======== css untuk top tabel search containernya ========*/
+.pemasukan-container .pemasukan-top-table .search-container {
+    /*css untuk mengatur list planning, kotak search, icon sorting*/
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: -20px;
+}
+
+.pemasukan-container .pemasukan-top-table .search-container .search-input {
+    /*css untuk mengatur jarak antara kotak search dengan sorting icon*/
+    justify-content: space-between;
+}
+
+.pemasukan-container .pemasukan-top-table .search-container .search-input .form-control {
+    /*css untuk mengatur kotak search input*/
+    width: 13rem;
+    padding: 10px 30px 10px 10px;
+    height: 25px;
+    border: 1px solid #808080;
+    background-color: transparent;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-size: 12px;
+    color: #808080;
+    margin-right: 20px;
+}
+
+.pemasukan-container .pemasukan-top-table .search-container .search-input .search-icon {
+    /*css untuk mengatur search icon*/
+    position: absolute;
+    top: 31%;
+    right: 3.6rem;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.pemasukan-container .pemasukan-top-table .search-container .btn-sort { 
+    width: 26px;
+    height: 25px;
+    background-color: #8467FF;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/*======== css untuk tabelnya ========*/
+.pemasukan-table {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 23px;
+}
+.ag-theme-alpine {
+    text-align: center;
+    z-index: 0;
+    font-size: 14px;
+    font-family: 'Manrope';
+}
+
+.ag-header-cell-text {
+    flex: 1;
+    text-align: center;
+}
+
+.ag-theme-alpine .ag-header-row {
+    background-color: #F7F7F7;
+    /* Ganti warna latar belakang sesuai preferensi Anda */
+    color: black;
+    /* Ganti warna teks sesuai preferensi Anda */
+    font-weight: bold;
+    /* Ganti berat teks sesuai preferensi Anda */
+    text-align: center;
+}
+
+.ag-paging-panel {
+    margin-top: 0;
+    /* Mengatur margin atas menjadi nol */
+    justify-content: left;
+    height: 35px;
+}
+
+.ag-theme-alpine .ag-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.ag-theme-alpine .ag-paging-panel {
+    height: 5vh;
+    background-color: transparent;
+}

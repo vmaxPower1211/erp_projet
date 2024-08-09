@@ -1,0 +1,150 @@
+
+.header {
+    transform: translateX(4%);    
+    display: flex;
+    /* text-align: center; */
+    /* justify-content: center; */
+    font-family: 'Exo';
+    display: flex;
+    flex-direction: row;
+    gap: 9vh;
+}
+/* 
+.selection {
+    margin-left: 5vw;
+
+} */
+
+
+
+.selection2 {
+    margin-left: 5vw;
+    margin-top: 5vh;
+    flex-shrink: 0;
+}
+/* Gaya SVG saat tidak dihover */
+.svg-icon {
+    fill: none; /* Menghilangkan warna fill saat tidak dihover */
+    /* stroke: #8A8A8B; Warna stroke saat tidak dihover */
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: fill 0.3s, stroke 0.3s; /* Efek transisi untuk fill dan stroke saat dihover */
+}
+  
+/* Gaya SVG saat dihover */
+/* .svg-icon:hover {
+    stroke: #6E49E9; 
+    stroke-width: 1;
+} */
+ 
+.header:hover .name-selection {
+    font-weight: 600;
+    color: #bebebe;
+    text-shadow: 0 2px 5px #bcbcbc;
+    transition: all 0.7s ease;
+    font-family: 'Exo';
+
+}
+
+/* .selection .box-menu {
+    width: 15vh;
+    height: 13vh;
+    background-color: black;
+} */
+
+.menu-selection {
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 3px; */
+    padding: 20px 20px 7px 20px;
+
+}
+
+A.active .menu-selection {
+    background-color: #F5F5F5;
+    border-radius: 15px 15px 0 0;
+}
+
+.menu-selection .name-selection {
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    font-family: 'Exo';
+    transform: translateX(10%);
+    text-align: center;
+    align-items: center;
+}
+
+.selection A.active .menu-selection .name-selection {
+    color: #6E49E9;
+    opacity: 1;
+    font-size: 15px;
+    font-family: 'Exo';
+    text-align: center;
+    align-items: center;
+}
+
+.selection .menu-selection .svg-icon {
+    margin: 0 auto;
+}
+
+/* .selection A.active .menu-selection .svg-icon {
+    stroke: #6E49E9;
+    fill: #6E49E9;
+} */
+
+/* .selection .menu-selection svg path {
+    stroke: #7E7F90;
+    
+}
+
+.selection A.active .menu-selection svg path {
+    fill: #6E49E9;
+    stroke: #6E49E9;
+}
+
+/* .selection .menu-selection.report svg path {
+    stroke: #7E7F90;
+    
+}
+
+.selection A.active .menu-selection.report svg path {
+    fill: #6E49E9;
+    stroke: #6E49E9;
+} */ */
+
+.input-icon {
+    position: relative;
+}
+
+.iconify {
+    position: absolute;
+    left: 10px; /* Jarak antara ikon dan sisi kiri input */
+    top: 50%; /* Posisi vertikal tengah ikon */
+    transform: translateY(-50%); /* Pusatkan ikon secara vertikal */
+    color: #7E7F90; /* Warna ikon (sesuaikan dengan kebutuhan Anda) */
+    font-size: 16px; /* Ukuran ikon (sesuaikan dengan kebutuhan Anda) */
+}
+
+.input {
+    padding-left: 30px; /* Jarak antara ikon dan teks input */
+    /* Gaya input Anda */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.dashboard-title {
+    width: 150vh;
+    height: 75px;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    padding: 30px;
+    justify-content: left;
+    margin-bottom: 4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15)
+}

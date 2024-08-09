@@ -1,0 +1,128 @@
+/* .master {
+    width: 1050px;
+    height: 687px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #EFEFEF;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.master .content {
+    flex: 1; 
+    height: 200px; 
+    border: 1px solid gray; 
+    height: 300px;
+}
+
+.master .content .content-1 {
+    background-color: aliceblue;
+}
+
+.master .content .content-2 {
+    background-color: rgb(46, 119, 183);
+} */
+
+.top-master-btn {
+    width: 148vh;
+    height: 70px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 60px;
+}
+
+.top-master-btn A {
+    margin-right: 70px;
+    color: #8A8A8B;;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
+
+.top-master-btn A.active {
+    margin-right: 70px;
+    color: rgba(132, 103, 255, 0.80);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
+
+.master {
+    width: 150vh;
+    height: 72vh;
+    border-radius: 10px;
+    background: #EFEFEF;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.master .content {
+    display: flex;
+    flex-direction: row;
+    top: 10vh;
+    justify-content: space-between;
+}
+
+.master .content .content-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.master .content .content-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.master .content .content-1 .list-coa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 70vh;
+    height: 57px;
+    border-radius: 20px;
+    background: #F8F8F9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* .list-coa p {
+    float: left;
+} */
+
+.master .content .btn-sort {
+    width: 26px;
+    height: 25px;
+    background-color: #8467FF;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.master .content .content-2 .list-akun {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 70vh;
+    height: 57px;
+    border-radius: 20px;
+    background: #F8F8F9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+// eslint-disable-next-line no-restricted-imports
+import {
+    defineConfig,
+    presetAttributify,
+    presetIcons,
+    presetTypography,
+    presetUno,
+    transformerDirectives,
+    transformerVariantGroup,
+} from 'unocss'
+  
+export default defineConfig({
+    rules: [
+      ['custom-rule', { color: 'red' }],
+    ],
+    shortcuts: {
+      'custom-shortcut': 'text-lg text-orange hover:text-teal',
+    },
+    presets: [
+      presetUno(),
+      presetAttributify(),
+      presetIcons({
+        scale: 1.2,
+        cdn: 'https://esm.sh/',
+      }),
+      presetTypography(),
+    ],
+    transformers: [
+        transformerDirectives(),
+        transformerVariantGroup()
+    ]
+})
+  

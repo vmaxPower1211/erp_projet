@@ -1,0 +1,117 @@
+/* .pt-pop-up {
+    width: 243px;
+    height: 286px;
+    border-radius: 10px;
+    background: rgba(235, 235, 235, 0.80);
+    position: absolute;
+    top: 80px;
+    left: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+
+.pt-pop-up button {
+    width: 194px;
+    height: 30px;
+    background-color: #FFF;
+    padding: 0 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+#slide {
+    position: absolute;
+    left: -100%;
+    -webkit-animation: slide 0.5s forwards;
+    animation: slide 0.5s forwards;
+  }
+  
+  @-webkit-keyframes slide {
+    100% {
+      left: 80px;
+    }
+  }
+  
+  @keyframes slide {
+    100% {
+      left: 80px;
+    }
+  } */
+
+
+  .pt-pop-up {
+    width: 243px;
+    height: 286px;
+    border-radius: 10px;
+    background: rgba(235, 235, 235, 0.80);
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    animation-duration: 0.5s; /* Tambahkan durasi animasi */
+    animation-fill-mode: forwards; /* Biarkan elemen tetap dalam keadaan akhir animasi */
+  }
+  
+  .pt-pop-up button {
+    width: 194px;
+    height: 30px;
+    background-color: #FFF;
+    padding: 0 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Tambahkan animasi slide-in */
+  @keyframes slideIn {
+    from {
+      transform: translateX(-130%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Tambahkan animasi slide-out */
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-130%);
+    }
+  }
+
+  /* .pt-pop-up {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    animation: slideOut 0.5s forwards;
+    display: none;
+  } */
+  
+  .pt-pop-up.closed {
+    animation: slideOut 0.5s forwards;
+  }
+  
+  .pt-pop-up.opened {
+    animation: slideIn 0.5s forwards;
+  }

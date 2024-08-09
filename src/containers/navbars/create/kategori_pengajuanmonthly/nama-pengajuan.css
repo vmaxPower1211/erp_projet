@@ -1,0 +1,209 @@
+.nama-pengajuan-1 {
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 20px 25px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+/*css untuk tabel form popup*/
+.nama-pengajuan-1 .nama-pengajuan {
+    /*untuk mengatur radius pop up form*/
+    border-radius: 10px;
+    width: 70vh;
+    height: 30vh;
+    background-color: #fff;
+    text-align: left;
+    padding: 25px 15px;
+    overflow: hidden;
+}
+
+.nama-pengajuan table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nama-pengajuan thead {
+    background-color: #333;
+    color: #fff;
+}
+
+.nama-pengajuan th {
+    padding: 10px;
+    text-align: left;
+}
+
+.nama-pengajuan tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.nama-pengajuan td {
+    padding: 10px;
+}
+
+.nama-pengajuan a {
+    text-decoration: none;
+    color: #0074d9;
+}
+
+.nama-pengajuan a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* CSS untuk judul "monthly" */
+.nama-pengajuan-1 .keterangan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-bottom: 2vh;
+    /* margin-top: 80px; */
+}
+
+
+.nama-pengajuan-1 .keterangan button {
+    background-color: #AE0000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+
+.nama-pengajuan-1 .keterangan h2 {
+    color: #6E49E9;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+ /* Sesuaikan angka sesuai dengan seberapa jauh Anda ingin menggeser h2 ke bawah */
+}
+
+
+.nama-pengajuan-1 .keterangan span {
+    font-size: 8px;
+}
+
+/* CSS untuk overlay latar belakang semi-transparan */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.isi-total-monthly {
+    font-weight: 700;
+}
+/* 
+.isi-total-monthly td {
+    background-color: rgb(233, 73, 201);
+    
+} */
+
+
+.nama-pengajuan .btn-show-keterangan button {
+    background-color: #8562f7;
+    color: white;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.nama-pengajuan .tambah-keterangan-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+    justify-content: left;
+    /* align-items: baseline; Adjust as needed */
+    margin-bottom: 10px;
+    /* height: 5.5vh; */
+}
+
+.nama-pengajuan .tambah-keterangan-group .btn-tambah {
+    background-color: #8562f7;
+    color: white;
+    width: 80px;
+    height: 5.5vh;
+    border-radius: 5px;
+    margin-top: 23px;
+}
+
+.nama-pengajuan .tambah-keterangan-group .btn-cancel {
+    background-color: #b5b5b5;
+    color: white;
+    width: 80px;
+    height: 5.5vh;
+    border-radius: 5px;
+    margin-top: 23px;
+}
+
+.nama-pengajuan .tambah-keterangan-group input {
+    background-color: #FFFFFF;
+    border: none;
+    width: 50vh;
+    height: 5.5vh;
+    padding: 12px 10px;
+    border-radius: 5px;
+    background: #F8F8F9;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nama-pengajuan .tambah-nama-pengajuan input {
+    background-color: #FFFFFF;
+    border: none;
+    width: 50vh;
+    height: 5.5vh;
+    padding: 12px 10px;
+    border-radius: 5px;
+    background: #F8F8F9;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nama-pengajuan .tambah-nama-pengajuan button {
+    background-color: #8562f7;
+    color: white;
+    width: 80px;
+    height: 5.5vh;
+    border-radius: 5px;
+    margin-top: 23px;
+}
+
+.nama-pengajuan .judul-pengajuan {
+    text-align: center;
+}
+
+.nama-pengajuan .judul-pengajuan h1 {
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 16px;
+
+}
+
+.nama-pengajuan .judul-pengajuan p {
+    font-weight: 700;
+    font-family: 'Inter';
+    font-size: 18px;
+}

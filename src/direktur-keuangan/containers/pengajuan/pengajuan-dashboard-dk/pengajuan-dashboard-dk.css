@@ -1,0 +1,10 @@
+.plan-dashboard {
+    width: 150vh;
+    /* height: 687px; */
+    border-radius: 10px;
+    background: #EFEFEF;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}

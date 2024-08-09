@@ -1,0 +1,125 @@
+.container-reimburse {
+    gap: 1.5vh;
+    margin-bottom: 10px;
+}
+
+.container-reimburse label {
+    font-weight: 600;
+}
+
+.container-reimburse input {
+    background-color: #FFFFFF;
+    border: none;
+    /* width: 20vh; */
+    height: 5vh;
+    margin-top: 2px;
+    padding: 2px 12px;
+    border-radius: 5px;
+    background: #F8F8F9;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.container-reimburse .dropdown-selected-reimburse {
+    height: 4.5vh;
+}
+
+.container-reimburse .dropdown-options-coa-reimburse {
+    padding: 7px;
+    height: 25vh;
+    width: 8vw;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 3;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.container-reimburse .custom-dropdown-coa-reimburse .dropdown-selected-reimburse {
+    align-items: center;
+}
+
+.container-reimburse .custom-dropdown-coa-reimburse{
+    background-color: #FFFFFF;
+    border: none;
+    width: 9vw;
+    height: 5vh;
+    margin-top: 2px;
+    padding: 2px 12px;
+    border-radius: 5px;
+    background: #F8F8F9;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.container-reimburse .dropdown-options-coa-reimburse .option {
+    padding-left: 12px;
+}
+
+.container-reimburse .dropdown-options-coa-reimburse .option:hover {
+    background-color: rgb(87, 129, 255);
+    padding-left: 14px;
+    color: white;
+    border-radius: 5px;
+}
+
+.tambah-data-weekly-reimburse {
+    align-items: center;
+}
+
+.tambah-data-weekly-reimburse button {
+    background-color: rgba(132, 103, 255, 0.80);    
+    color: #fff;
+    text-transform: capitalize;
+    position: absolute;
+    width: 80px;
+    height: 5vh;
+    border-radius: 5px;
+    margin-top: 26px;
+    margin-left: 10px;
+}
+
+.btn-simpan-weekly-reimburse button {
+    background-color: rgba(132, 103, 255, 0.80);    
+    color: #fff;
+    text-transform: capitalize;
+    position: absolute;
+    width: 80px;
+    height: 6vh;
+    border-radius: 5px;
+    margin-top: 26px;
+}
+
+.detail-total-weekly-reimburse {
+    padding: 5px 10px;
+    width: 15vw;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 229, 127);
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.dropdown-keterangan-reimburse select {
+    background-color: #FFFFFF;
+    border: none;
+    /* width: 20vh; */
+    height: 5vh;
+    margin-top: 2px;
+    padding: 0 12px;
+    border-radius: 5px;
+    background: #F8F8F9;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+}

@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Manrope'; */
+}
+
+/*======== css untuk top tabel ========*/
+.kasBesar-container {
+    background-color: #EFEFEF;
+    width: 150vh;
+    height: 128vh;
+    border-radius: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.20);
+    margin-bottom: 20px;
+}
+
+.kasBesar-container .kasBesar-top-table {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.kasBesar-container .kasBesar-top-table .kasBesar-title p {
+    font-size: 18px;
+    color: #414141;
+    font-family: 'Exo';
+    font-weight: 700;
+    margin-left: 4px;
+}
+
+.kasBesar-container .kasBesar-top-table .kasBesar-title span {
+    font-size: 11px;
+    color: #808080;
+}
+
+/*======== css untuk top tabel search containernya ========*/
+.kasBesar-container .kasBesar-top-table .search-container {
+    /*css untuk mengatur list planning, kotak search, icon sorting*/
+    position: relative;
+    display: flex;
+}
+
+.kasBesar-container .kasBesar-top-table .search-container .search-input {
+    /*css untuk mengatur jarak antara kotak search dengan sorting icon*/
+    justify-content: space-between;
+}
+
+.kasBesar-container .kasBesar-top-table .search-container .search-input .form-control {
+    /*css untuk mengatur kotak search input*/
+    width: 13rem;
+    padding: 10px 30px 10px 10px;
+    height: 25px;
+    border: 1px solid #808080;
+    background-color: transparent;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-size: 12px;
+    color: #808080;
+    margin-right: 20px;
+}
+
+.kasBesar-container .kasBesar-top-table .search-container .search-input .search-icon {
+    /*css untuk mengatur search icon*/
+    position: absolute;
+    top: 55%;
+    right: 3.6rem;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.kasBesar-container .kasBesar-top-table .search-container .btn-sort {
+    margin: auto;
+    width: 26px;
+    height: 25px;
+    background-color: #8467FF;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+/*======== css untuk tabelnya ========*/
+.kasBesar-table {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.ag-theme-alpine {
+    text-align: center;
+    z-index: 0;
+    font-size: 14px;
+    font-family: 'Manrope';
+}
+
+.ag-header-cell-text {
+    flex: 1;
+    text-align: center;
+}
+
+.ag-theme-alpine .ag-header-row {
+    background-color: #F7F7F7;
+    /* Ganti warna latar belakang sesuai preferensi Anda */
+    color: black;
+    /* Ganti warna teks sesuai preferensi Anda */
+    font-weight: bold;
+    /* Ganti berat teks sesuai preferensi Anda */
+    text-align: center;
+}
+
+.ag-paging-panel {
+    margin-top: 0;
+    /* Mengatur margin atas menjadi nol */
+    justify-content: left;
+    height: 35px;
+}
+
+.ag-theme-alpine .ag-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.ag-theme-alpine .ag-paging-panel {
+    height: 5vh;
+    background-color: transparent;
+}
+
+/*======== css untuk total saldo ========*/
+.totalSaldo-container {
+    display: flex;
+    float: right;
+    /* position: absolute; */
+    top: 36%;
+    margin-left: auto;
+}
+
+.totalSaldo-container .totalSaldo-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Pusat vertikal */
+    text-align: center;
+    /* Pusat horizontal */
+    background-color: #9780FA;
+    padding: 10px;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 4px;
+    gap: 5px;
+    align-self: stretch;
+}
+
+.totalSaldo-container .totalSaldo-title p {
+    justify-content: center;
+    color: #000000;
+    font-family: 'Manrope';
+    font-weight: 800;
+    text-align: center;
+}
+
+.totalSaldo-container .totalSaldo-jumlah {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Pusat vertikal */
+    text-align: center;
+    /* Pusat horizontal */
+    background-color: #FFFFFF;
+    padding: 10px;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 4px;
+    gap: 5px;
+    align-self: stretch;
+}
+
+.totalSaldo-container .totalSaldo-jumlah p {
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+    font-family: 'Manrope';
+    font-weight: 800;
+}

@@ -1,0 +1,72 @@
+.plan-du {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Exo', sans-serif; */
+}
+
+.plan-du .box-1 {
+    width: 150vh;
+    height: 687px;
+    border-radius: 10px;
+    background: #EFEFEF;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    margin-bottom: 4vh;
+}
+
+.plan-du .box-1 .component-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-du .box-1 h1 {
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-family: 'Exo';
+}
+
+.plan-du .rightcp {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+.rightcp input[type=text] {
+    border: 1px solid #ccc; 
+    width: 200px;
+    height: 25px; 
+    font-size: 13px;
+    margin-right: 10px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: transparent;
+    display: inline;
+    top: 0;
+}
+
+.plan-du .rightcp .search-icon {
+    position: absolute;
+    display: inline-flex;
+    right: 8vh;
+    color: #ccc;
+}
+
+.plan-du .rightcp .btn-sort {
+    margin: auto;
+    width: 26px;
+    height: 25px;
+    background-color: #8467FF;
+    color: white;
+    border-radius: 5px;
+}
+
+.tabel-keterangan {
+    display: flex;
+    flex-direction: column;
+}

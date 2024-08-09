@@ -1,0 +1,157 @@
+.arus-kas {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    width: 73vw;
+}
+
+.card-arus-kas {
+    /* border-radius: 10px; */
+    background: #EFEFEF;
+    border-radius: 1vw;
+    width: 151vh;
+    padding-bottom: 4vh;
+    margin-bottom: 4vh;
+    height: fit-content;
+    /* justify-content: center;
+    align-items: center; */
+    /* padding: 30px; */
+}
+.card-module {
+    display: flex;
+    height: 8vh;
+    background: #EFEFEF;
+    border-radius: 1vw;
+    /* margin-left: 5vw; */
+    /* margin-right: 5vw; */
+}
+.accountmaster {
+    margin-left: 2vw;
+    font-weight: 600;
+    font-size: 17px;
+}
+.nameheader {
+    display: flex;
+    margin-bottom: 2vh;
+    padding-top: 2vh
+}
+.rightcp {
+    margin-left: 53vw;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    float: right;
+}
+
+.tableteams2 {
+    margin-top: 50px;
+}
+
+.tableteams h3 {
+    font-weight: 700;
+    font-family: 'Exo';
+    font-size: 17px;
+}
+
+.tableteams2 h3 {
+    font-weight: 700;
+    font-family: 'Exo';
+    font-size: 17px;
+}
+
+.rightcp input[type=text] {
+    border: 1px solid #ccc; 
+    border-radius: 1vh;
+    margin-right: 1vw;
+    background-color: transparent;
+    width: 13vw;
+    /* margin-left: 2vw; */
+
+    /* width: 260px;
+    height: 25px; 
+    font-size: 13px;
+    margin-right: 10px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: transparent;
+    display: inline;
+    top: 0; */
+}
+
+.rightcp .search-icon {
+    position: absolute;
+    display: inline-flex;
+    right: 8vh;
+    color: #ccc;
+}
+
+.rightcp .btn-sort {
+    margin: auto;
+    width: 26px;
+    height: 25px;
+    background-color: #8467FF;
+    color: white;
+    border-radius: 5px;
+}
+
+.card-bar {
+    width: 140vh;
+    height: 246px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 4vh;
+    background: #f8f8f8;
+    border-radius: 1vw;
+    padding-top: 6vh;
+    padding-bottom: 6vh
+}
+
+.card-bar p {
+    margin: auto;
+    opacity: 0.6;
+}
+
+.step-status {
+    margin: auto;
+}
+
+.step-bar {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.progress .progress-error {
+    color: red;
+    background-color: red;
+}
+
+.step-bar .bar {
+    width: 15rem;
+    height: 1.6rem;
+    border-radius: 40px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.18);
+    background-color: #EFEFEF;
+}
+
+.step-bar .bar.success {
+    background-color: rgb(42, 135, 42);
+}
+
+.step-bar .bar.reject {
+    background-color: rgb(215, 93, 93);
+}
+
+.step-bar .step-label {
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 600;
+    width: 15rem;
+    height: max-content;
+    justify-content: center;
+    padding: 0 20px;
+    line-height: 1.3;
+}

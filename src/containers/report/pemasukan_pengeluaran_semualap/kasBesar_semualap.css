@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Manrope'; */
+}
+
+/*======== css untuk top tabel ========*/
+.kasBesar-semualap-container {
+    padding: 1rem;
+}
+.kasBesar-semualap-container p {
+    font-size: 20px;
+    color: #414141;
+    font-family: 'Exo';
+    font-weight: 700;
+    margin: 0;
+}
+
+/*======== css untuk tabelnya ========*/
+.kasBesar-semualap-table {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 23px; */
+}
+
+.ag-theme-alpine {
+    text-align: center;
+    z-index: 0;
+    font-size: 14px;
+    font-family: 'Manrope';
+}
+
+.ag-header-cell-text {
+    flex: 1;
+    text-align: center;
+}
+
+.ag-theme-alpine .ag-header-row {
+    background-color: #F7F7F7;
+    /* Ganti warna latar belakang sesuai preferensi Anda */
+    color: black;
+    /* Ganti warna teks sesuai preferensi Anda */
+    font-weight: bold;
+    /* Ganti berat teks sesuai preferensi Anda */
+    text-align: center;
+}
+
+.ag-paging-panel {
+    margin-top: 0;
+    /* Mengatur margin atas menjadi nol */
+    justify-content: left;
+    height: 35px;
+}
+
+.ag-theme-alpine .ag-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.ag-theme-alpine .ag-paging-panel {
+    height: 5vh;
+    background-color: transparent;
+}
+
+/*======== css untuk total saldo ========*/
+.kasBesar-semualap-container .totalSaldo-container {
+    display: flex;
+    float: right;
+    /* margin-right: 1.8rem; */
+    margin-bottom: 2rem;
+}
+
+.kasBesar-semualap-container .totalSaldo-container .totalSaldo-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Pusat vertikal */
+    text-align: center;
+    /* Pusat horizontal */
+    background-color: #9780FA;
+    padding: 10px;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 4px;
+    gap: 5px;
+    align-self: stretch;
+}
+
+.kasBesar-semualap-container .totalSaldo-container .totalSaldo-title p {
+    justify-content: center;
+    color: #000000;
+    font-family: 'Manrope';
+    font-weight: 800;
+    text-align: center;
+}
+
+.kasBesar-semualap-container .totalSaldo-container .totalSaldo-jumlah {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Pusat vertikal */
+    text-align: center;
+    /* Pusat horizontal */
+    background-color: #FFFFFF;
+    padding: 10px;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 4px;
+    gap: 5px;
+    align-self: stretch;
+}
+
+.kasBesar-semualap-container .totalSaldo-container .totalSaldo-jumlah p {
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+    font-family: 'Manrope';
+    font-weight: 800;
+}

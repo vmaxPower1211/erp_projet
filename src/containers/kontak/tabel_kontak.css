@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Manrope'; */
+}
+
+.tabel-kontak-container {
+    background-color: #EFEFEF;
+    width: 150vh;
+    height: fit-content;
+    border-radius: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.20);
+    margin-bottom: 20px;
+}
+
+/*======== css untuk tabelnya ========*/
+.at-table {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 23px;
+    margin: auto;
+}
+.ag-theme-alpine {
+    text-align: center;
+    z-index: 0;
+    font-size: 14px;
+    font-family: 'Manrope';
+}
+.ag-header-cell-text {
+    flex: 1;
+    text-align: center;
+}
+.ag-theme-alpine .ag-header-row {
+    background-color: #E5E0D0;
+    /* Ganti warna latar belakang sesuai preferensi Anda */
+    color: black;
+    /* Ganti warna teks sesuai preferensi Anda */
+    font-weight: bold;
+    /* Ganti berat teks sesuai preferensi Anda */
+    text-align: center;
+}
+.ag-paging-panel {
+    margin-top: 0;
+    /* Mengatur margin atas menjadi nol */
+    justify-content: left;
+    height: 35px;
+}
+.ag-theme-alpine .ag-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.ag-theme-alpine .ag-paging-panel {
+    height: 5vh;
+    background-color: transparent;
+  }
+  
+.tambah-kontak-btn {
+    justify-content: right;
+    width: 20vh;
+    height: 10vh;
+    color: white;
+    background-color: aqua;
+}
+
+.dashboard-title {
+    width: 150vh;
+    height: 75px;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    padding: 30px;
+    justify-content: left;
+    margin-bottom: 4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15)
+}
+
+

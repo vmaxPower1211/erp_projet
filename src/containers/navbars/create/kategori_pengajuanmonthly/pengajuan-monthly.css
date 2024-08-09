@@ -1,0 +1,245 @@
+.pengajuan-monthly-1 {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 25px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+/*css untuk tabel form popup*/
+.pengajuan-monthly-1 .pengajuan-monthly {
+    /*untuk mengatur radius pop up form*/
+    border-radius: 10px;
+    width: 85vh;
+    height: 75vh;
+    background-color: #fff;
+    text-align: left;
+    /* padding: 25px 20px; */
+    overflow: hidden;
+}
+
+.pengajuan-monthly table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pengajuan-monthly thead {
+    background-color: #333;
+    color: #fff;
+}
+
+.pengajuan-monthly th {
+    padding: 10px;
+    text-align: left;
+}
+
+.pengajuan-monthly tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.pengajuan-monthly td {
+    padding: 10px;
+}
+
+.pengajuan-monthly a {
+    text-decoration: none;
+    color: #0074d9;
+}
+
+.pengajuan-monthly a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* CSS untuk judul "monthly" */
+.pengajuan-monthly-1 .keterangan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-bottom: 2vh;
+    /* margin-top: 80px; */
+}
+
+
+.pengajuan-monthly-1 .keterangan button {
+    background-color: #AE0000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+
+.pengajuan-monthly-1 .keterangan h2 {
+    color: #6E49E9;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+ /* Sesuaikan angka sesuai dengan seberapa jauh Anda ingin menggeser h2 ke bawah */
+}
+
+
+.pengajuan-monthly-1 .keterangan span {
+    font-size: 8px;
+}
+
+/* CSS untuk overlay latar belakang semi-transparan */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.isi-total-monthly {
+    font-weight: 700;
+}
+/* 
+.isi-total-monthly td {
+    background-color: rgb(233, 73, 201);
+    
+} */
+
+
+.pengajuan-monthly .btn-show-keterangan button {
+    background-color: #8562f7;
+    color: white;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.pengajuan-monthly .tambah-keterangan-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+    justify-content: left;
+    /* align-items: baseline; Adjust as needed */
+    margin-bottom: 10px;
+    /* height: 5.5vh; */
+}
+
+.pengajuan-monthly .tambah-keterangan-group .btn-tambah {
+    background-color: #8562f7;
+    color: white;
+    width: 80px;
+    height: 5.5vh;
+    border-radius: 5px;
+    margin-top: 23px;
+}
+
+.pengajuan-monthly .tambah-keterangan-group .btn-cancel {
+    background-color: #b5b5b5;
+    color: white;
+    width: 80px;
+    height: 5.5vh;
+    border-radius: 5px;
+    margin-top: 23px;
+}
+
+.pengajuan-monthly .tambah-keterangan-group input {
+    background-color: #FFFFFF;
+    border: none;
+    width: 50vh;
+    height: 5.5vh;
+    padding: 12px 10px;
+    border-radius: 5px;
+    background: #F8F8F9;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pengajuan-monthly .tambah-nama-pengajuan input {
+    background-color: #FFFFFF;
+    border: none;
+    width: 50vh;
+    height: 5.5vh;
+    padding: 12px 10px;
+    border-radius: 5px;
+    background: #F8F8F9;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pengajuan-monthly .tambah-nama-pengajuan button {
+    background-color: #8562f7;
+    color: white;
+    width: 80px;
+    height: 5.5vh;
+    border-radius: 5px;
+    margin-top: 23px;
+}
+
+.pengajuan-monthly .judul-pengajuan {
+    text-align: center;
+}
+
+.pengajuan-monthly .judul-pengajuan h1 {
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 16px;
+    margin: 0;
+}
+
+.pengajuan-monthly .judul-pengajuan p {
+    font-weight: 700;
+    font-family: 'Inter';
+    font-size: 18px;
+}
+
+.pengajuan-monthly .detail-total-operasional {
+    width: 80vh;
+}
+
+.pengajuan-monthly .bottom-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200vh;
+}
+
+.pengajuan-monthly .submit-btn  {
+    background-color: #8367ff;
+    color: #fff;
+    text-transform: capitalize;
+    position: absolute;
+    width: 80px;
+    height: 42px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 40px;
+    left: 60%;
+}
+
+.pengajuan-monthly .simpan-btn  {
+    background-color: #8367ff;
+    color: #fff;
+    text-transform: capitalize;
+    position: absolute;
+    width: 80px;
+    height: 42px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 40px;
+    left: 30%;
+}

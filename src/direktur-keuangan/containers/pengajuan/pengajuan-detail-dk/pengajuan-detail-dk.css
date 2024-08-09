@@ -1,0 +1,10 @@
+.detail-plan-container {
+    width: 150vh;
+    height: 487px;
+    border-radius: 10px;
+    background: #EFEFEF;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}

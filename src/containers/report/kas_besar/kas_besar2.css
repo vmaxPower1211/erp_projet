@@ -1,0 +1,105 @@
+/*======== css untuk tabelnya ========*/
+.kasBesar-table2 {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.ag-theme-alpine {
+    text-align: center;
+    z-index: 0;
+    font-size: 14px;
+    font-family: 'Manrope';
+}
+
+.ag-header-cell-text {
+    flex: 1;
+    text-align: center;
+}
+
+.ag-theme-alpine .ag-header-row {
+    background-color: #F7F7F7;
+    /* Ganti warna latar belakang sesuai preferensi Anda */
+    color: black;
+    /* Ganti warna teks sesuai preferensi Anda */
+    font-weight: bold;
+    /* Ganti berat teks sesuai preferensi Anda */
+    text-align: center;
+}
+
+.ag-paging-panel {
+    margin-top: 0;
+    /* Mengatur margin atas menjadi nol */
+    justify-content: left;
+    height: 35px;
+}
+
+.ag-theme-alpine .ag-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.ag-theme-alpine .ag-paging-panel {
+    height: 5vh;
+    background-color: transparent;
+}
+
+/*======== css untuk total saldo ========*/
+.totalSaldo-container2 {
+    display: flex;
+    float: right;
+    margin-left: auto;
+    margin-bottom: 10rem;
+}
+
+.totalSaldo-container2 .totalSaldo-title2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Pusat vertikal */
+    text-align: center;
+    /* Pusat horizontal */
+    background-color: #9780FA;
+    padding: 10px;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 4px;
+    gap: 5px;
+    align-self: stretch;
+}
+
+.totalSaldo-container2 .totalSaldo-title2 p {
+    justify-content: center;
+    color: #000000;
+    font-family: 'Manrope';
+    font-weight: 700;
+    text-align: center;
+}
+
+.totalSaldo-container2 .totalSaldo-jumlah2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Pusat vertikal */
+    text-align: center;
+    /* Pusat horizontal */
+    background-color: #FFFFFF;
+    padding: 10px;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 4px;
+    gap: 5px;
+    align-self: stretch;
+}
+
+.totalSaldo-container2 .totalSaldo-jumlah2 p {
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+    font-family: 'Manrope';
+    font-weight: 700;
+}

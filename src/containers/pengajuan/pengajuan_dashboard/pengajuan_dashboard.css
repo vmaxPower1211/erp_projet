@@ -1,0 +1,82 @@
+.pengajuanDashboard_container1 {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.pengajuanDashboard_container1 .pengajuanDashboard_container2 {
+    width: 150vh;
+    height: 687px;
+    border-radius: 10px;
+    background: #EFEFEF;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.pengajuanDashboard_container1 .pengajuanDashboard_container2 .component-1 {
+    display: flex;
+}
+
+.pengajuanDashboard_container1 .pengajuanDashboard_container2 h1 {
+    font-family: 'Exo';
+    font-weight: 700;
+    font-size: 15px;
+    /* margin-bottom: 5px; */
+    color: black;
+}
+
+.pengajuanDashboard_container1 .rightcp {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    float: right;
+    margin-top: -8px;
+}
+
+.rightcp input[type=text] {
+    border: 1px solid #808080; 
+    width: 260px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    height: fit-content;
+}
+
+.pengajuanDashboard_container1 .rightcp input[type=text] {
+    border: 1px solid #ccc; 
+    width: 200px;
+    height: 25px; 
+    font-size: 13px;
+    font-family: 'Inter';
+    margin-right: 10px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: transparent;
+    display: inline;
+    top: 0;
+}
+
+.pengajuanDashboard_container1 .tabel-keterangan {
+    display: flex;
+    flex-direction: column;
+}
+
+.pengajuanDashboard_container1  .rightcp .search-icon {
+    position: absolute;
+    display: inline-flex;
+    right: 8vh;
+    color: #808080;
+}
+
+.pengajuanDashboard_container1 .rightcp .btn-sort {
+    margin: auto;
+    width: 26px;
+    height: 25px;
+    background-color: #8467FF;
+    color: white;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,25 @@
+/* .navbar-report {
+    width: 150vh;
+    height: 70px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.navbar-report A {
+    margin-right: 75px;
+    color: #8A8A8B;;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
+
+.navbar-report A.active {
+    color: rgba(132, 103, 255, 0.80);
+} */

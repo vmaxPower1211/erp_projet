@@ -1,0 +1,78 @@
+.arus-kas {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    width: 73vw;
+}
+
+.card-arus-kas {
+    /* border-radius: 10px; */
+    background: #EFEFEF;
+    border-radius: 1vw;
+    width: 151vh;
+    padding-bottom: 4vh
+    /* justify-content: center;
+    align-items: center; */
+    /* padding: 30px; */
+}
+.card-module {
+    display: flex;
+    height: 8vh;
+    background: #EFEFEF;
+    border-radius: 1vw;
+    /* margin-left: 5vw; */
+    /* margin-right: 5vw; */
+}
+.accountmaster {
+    margin-left: 2vw;
+    font-weight: 600;
+    font-size: 17px;
+}
+.nameheader {
+    display: flex;
+    margin-bottom: 2vh;
+    padding-top: 2vh
+}
+.rightcp {
+    margin-left: 53vw;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    float: right;
+}
+
+.rightcp input[type=text] {
+    border: 1px solid #ccc; 
+    border-radius: 1vh;
+    margin-right: 1vw;
+    background-color: transparent;
+    width: 13vw;
+    /* margin-left: 2vw; */
+
+    /* width: 260px;
+    height: 25px; 
+    font-size: 13px;
+    margin-right: 10px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: transparent;
+    display: inline;
+    top: 0; */
+}
+
+.rightcp .search-icon {
+    position: absolute;
+    display: inline-flex;
+    right: 8vh;
+    color: #ccc;
+}
+
+.rightcp .btn-sort {
+    margin: auto;
+    width: 26px;
+    height: 25px;
+    background-color: #8467FF;
+    color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,287 @@
+/*css untuk button tambah akun*/
+/* .tambah-acc-master {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 5px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    background-color: #fff;
+} */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Warna latar belakang semi-transparan */
+    z-index: 2; /* Z-index lebih tinggi dari form popup */
+}
+
+.tambah-acc-master {
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    z-index: 3;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*css untuk tabel form popup*/
+.tambah-acc-master .tambah-form {
+    /*untuk mengatur radius pop up form*/
+    border-radius: 15px;
+    width: 85vh;
+    height: 87vh;
+    background-color: #fff;
+    padding: 25px 20px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+}
+
+.tambah-acc-master form .headakun {
+    /*untuk mengatur teks dan button secara keseluruhan*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.tambah-acc-master form .headakun button {
+    /*untuk mengatur button x saja*/
+    background-color: #AE0000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+
+.tambah-acc-master form .headakun h2 {
+    /*untuk mengatur judul form*/
+    color: #6E49E9;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tambah-acc-master .isi-form {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.tambah-acc-master form .headakun span {
+    /*untuk mengatur span pada h2*/
+    font-size: 8px;
+}
+
+/*css untuk isian form*/
+/* .tambah-acc-master .isi-form p {
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+} */
+
+.tambah-acc-master .isi-form label {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 2;
+    font-weight: 600;
+}
+
+.tambah-acc-master .isi-form input,
+select {
+    /*untuk kotak teks input*/
+    background-color: #FFFFFF;
+    border: none;
+    width: 78vh;
+    height: 32px;
+    margin-bottom: 7px;
+    padding: 12px 10px;
+    border-radius: 5px;
+    background: #F8F8F9;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/*css untuk button add-acc*/
+.tambah-acc-master .btn-add-acc {
+    position: relative; /* Buat parent relative untuk tombol */
+    width: 100%; /* Atur lebar sesuai kebutuhan */
+    height: 100%; /* Atur tinggi sesuai kebutuhan */
+}
+
+.tambah-acc-master .btn-add-acc button {
+    background-color: rgba(132, 103, 255, 0.80);    
+    color: #fff;
+    text-transform: capitalize;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%); /*Geser tombol ke tengah*/
+    top: 12px;
+    width: 80px;
+    height: 42px;
+    border-radius: 5px;
+}
+
+.tambah-acc-master .modal-box label {
+    text-align: left;
+}
+
+.tambah-acc-master .options {
+    /*untuk mengatur teks label*/
+    color: #000000;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tambah-acc-master .options select {
+    /*untuk kotak teks input*/
+    padding: 0 5px;
+    border-radius: 5px;
+    background: #F8F8F9;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    font-size: 16px;
+    font-weight: 600;
+    width: 37vh;
+    height: 32px;
+}
+
+/* .tambah-acc-master .options input {
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    width: 13rem;
+    height: 2rem;
+    border-radius: 5px;
+} */
+
+.tambah-acc-master .options .drop-posisi {
+    margin-top: 2px ;
+    padding: 3px 10px ;
+    border-radius: 5px;
+    background: #F8F8F9;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    font-size: 15px;
+    width: 37vh;
+    height: 32px;
+    justify-content: left;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    text-transform: capitalize;    
+}
+
+.tambah-acc-master .options .drop-posisi {
+    display: block;
+}
+
+/* .tambah-acc-master .options .dropdown {
+    display: none;
+} */
+
+.tambah-acc-master .options .dropdown-content {
+    margin-top: 2px;
+    width: 37vh;
+    height: 8rem;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    position: absolute;
+}
+.tambah-acc-master .options .dropdown-bottom {
+    width: 37vh;
+    height: 32px;
+}
+
+
+.tambah-acc-master .options .posisi-opsi {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    padding: 14px;
+    height: 1px;
+    margin-left: 5px;
+}
+
+.tambah-acc-master .options .posisi-opsi label{
+    font-weight: normal;
+}
+
+
+.tambah-acc-master .posisi-opsi input{
+    padding: 0;
+    margin-top: 10px;
+    width: 1rem;
+    height: 1rem;
+    box-shadow: none;
+
+}
+
+/* 
+.container-bukti {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.box-bukti {
+    display: flex;
+    width: 160px; 
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid #808080;
+    background-color: #FFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-bukti p {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.icon-file {
+    margin: auto;
+    color: #D9D9D9;
+}
+
+.container-2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.btn-upload {
+    width: 46px;
+    height: 31px;
+    border-radius: 4px;
+    background: #3B528D;
+    color: #FFF;
+    margin-top: 11px;
+} */

@@ -1,0 +1,32 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap'); */
+
+.ag-theme-alpine {
+    text-align: center;   
+    border: none;
+    font-family: 'Manrope';
+}
+
+
+.ag-header-cell-text {
+    flex: 1;
+  }
+  
+.ag-theme-alpine .ag-header-row  {
+    background-color: #F7F7F7; /* Ganti warna latar belakang sesuai preferensi Anda */
+    color: black; /* Ganti warna teks sesuai preferensi Anda */
+    font-weight: bold; /* Ganti berat teks sesuai preferensi Anda */
+    height: 37px;
+}
+
+.ag-paging-panel {
+    margin-top: 0; /* Mengatur margin atas menjadi nol */
+    justify-content: left;
+    height: 35px;
+  }
+
+
+.ag-theme-alpine .ag-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

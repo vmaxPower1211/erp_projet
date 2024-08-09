@@ -1,0 +1,3 @@
+node_modules
+dist
+src/containers/login/login2.tsx

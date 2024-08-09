@@ -1,0 +1,25 @@
+.pop-up-logout {
+    width: 164px;
+    height: 87px;
+    border-radius: 11px;
+    background: #EBEBEB;
+    box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 12vh;
+    bottom: 2vh;
+    padding: 10px;
+}
+
+.logout-icon {
+    margin-top: auto;
+    padding: auto;
+    transform: translateY(15%);
+    margin-right: 5px;
+}
+
+.logout-btn {
+    display: inline;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+}

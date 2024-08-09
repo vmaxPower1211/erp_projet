@@ -1,0 +1,88 @@
+.ag-theme-alpine {
+    text-align: center;
+    border: none;
+    font-family: 'Manrope';
+  }
+  
+  
+  .ag-header-cell-text {
+    flex: 1;
+  }
+  
+  .ag-theme-alpine .ag-header-row {
+    background-color: #F7F7F7;
+    /* Ganti warna latar belakang sesuai preferensi Anda */
+    color: black;
+    /* Ganti warna teks sesuai preferensi Anda */
+    font-weight: bold;
+    /* Ganti berat teks sesuai preferensi Anda */
+    height: 37px;
+  }
+  
+  .ag-paging-panel {
+    margin-top: 0;
+    /* Mengatur margin atas menjadi nol */
+    justify-content: left;
+    height: 35px;
+  }
+  
+  
+  .ag-theme-alpine .ag-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ag-cell.bold-type {
+    font-weight: 600;
+  }
+  
+  
+  
+  
+  
+  /* coba checkbox */
+  
+  
+  
+  .checkbox-container {
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    background-color: #00BA29;
+  }
+  
+  .checkbox-container input {
+    position: absolute;
+    cursor: pointer;
+    color: #00BA29;
+  }
+  
+  .checkbox-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    background-color: #a7a3a3;
+    border: 1px solid #ac6767;
+  }
+  
+  .checkbox-container:hover .checkbox-checkmark {
+    background-color: #ccc;
+  }
+  
+  
+  
+  .btn-approved {
+    color: #00BA29;
+    margin-top: auto;
+  }
+  
+  .icon-disabled {
+    color: #a7a3a3;
+  }
+  
+  .icon-rejected {
+    color: #ac6767;
+  }

@@ -1,0 +1,24 @@
+.teams {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 73vw;
+}
+.card-bar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4vh;
+    background: #f8f8f8;
+    border-radius: 1vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding-top: 6vh;
+    padding-bottom: 6vh
+}
+.glass-table .ag-row {
+    background-color: white;
+
+}

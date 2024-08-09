@@ -1,0 +1,111 @@
+.btn-tutup-buku .btn {
+    /* align-items: center;
+    text-align: center; */
+    position: relative;
+    background-color: #9780FA;
+    padding: 5px;
+    width: 6.2rem;
+    border-radius: 6px;
+    font-weight: 550;
+    float: right;
+    text-transform: capitalize;
+    color: black;
+    border: none;
+}
+
+/*====== css untuk pop up form ======*/
+/* .modal */
+.modal .modal-box {
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 20px;
+    max-width: 100%; /* Menghilangkan lebar maksimum */
+    width: auto; /* Menghilangkan lebar tetap */
+    max-height: 80vh; /* Atur tinggi maksimum sesuai kebutuhan Anda, misalnya 80% dari tinggi viewport (vh) */
+    height: 19rem; /* Menghilangkan tinggi tetap */
+    overflow: auto; /* Menambahkan scroll jika konten melebihi kotak moda*/
+}
+
+.modal .modal-box form {
+    padding: 0;
+}
+
+.modal .modal-box form .btn-x {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal .modal-box form .btn-x h2 {
+    color: #6E49E9;
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.modal .modal-box form .btn-x span {
+    font-weight: 500;
+    color: #000000;
+    font-size: 12px;
+}
+
+.modal .modal-box form .btn-x button {
+    background-color: #AE0000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 19px;
+    width: 29px;
+    float: right;
+    margin-left: 20rem;
+}
+
+.modal .modal-box form .isian-form {
+
+}
+
+.modal .modal-box form .isian-form p {
+    margin: 0;
+    padding: 0;
+}
+
+.modal .modal-box form .isian-form p label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.modal .modal-box form .isian-form p input {
+    border-radius: 5px;
+    background-color: #F8F8F9;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    width: 490px;
+    height: 45px;
+    flex-shrink: 0;
+    margin-top: 10px;
+}
+.modal .modal-box form .isian-form .warning-box {
+    display: flex;
+    padding-top: 10px;
+}
+.modal .modal-box form .isian-form .warning-box p {
+    font-size: 12px;
+    padding-left: 2px;
+    padding-top: 5px;
+}
+
+/*button kirim*/
+.modal .modal-box form .btn-add-acc {
+    position: relative; /* Buat parent relative untuk tombol */
+    width: 100%; /* Atur lebar sesuai kebutuhan */
+    height: 100%; /* Atur tinggi sesuai kebutuhan */
+}
+
+.modal .modal-box form .btn-add-acc button {
+    background-color: rgba(132, 103, 255, 0.80);    
+    color: #fff;
+    text-transform: capitalize;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%); /*Geser tombol ke tengah*/
+    top: 25px;
+    width: 80px;
+    height: 42px;
+    border-radius: 5px;
+}

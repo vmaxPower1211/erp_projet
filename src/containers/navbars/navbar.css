@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.selection A.active .notifications-selection .name-selection {
+    color: #6E49E9;
+    opacity: 50px; /* Menggeser teks ke kanan */
+}
+
+.selection A.active .notifications-selection .svg-icon {
+    stroke: #6E49E9;
+}
+
+.notifications-item .subnotifications {
+    left: 100%; /* Menyesuaikan jarak sesuai kebutuhan */
+}
+
+A.active .sidebars {
+    background-color: #e1e1e1b2;
+}
+
+.dropdown.dropdown-left .btn {
+    color: white;
+    text-transform: capitalize;
+    background-color: #f56d59;
+    border-radius: 40px;
+    border: none;
+    height: 1rem;
+    margin-left: 300px;
+}
+
+/* navbar.css */
+
+.notifications-count {
+    position: absolute;
+    top: 15px; /* Sesuaikan posisinya di atas ikon */
+    right: 145px; /* Sesuaikan posisinya di kanan ikon */
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: black;
+    transition: display 0.3s ease; /* Transisi agar perubahan tampilan halus */
+}
+  
+.notifications-selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 3px; */
+    padding: 20px 25px 7px 25px;
+    margin-left: -150px;
+}
+
+A.active .notifications-selection {
+    background-color: #F5F5F5;
+    border-radius: 15px 15px 0 0;
+}
+
+.notifications-selection .name-selection {
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    font-family: 'Exo';
+    transform: translateX(10%);
+}
+
+/* Saat SVG dihover */
+/* .notifications-selection:hover .name-selection {
+    color: #6E49E9;
+    stroke: #6E49E9;
+}
+
+.notifications-selection:hover .svg-icon {
+    stroke: #6E49E9;
+} */
+
+/* Saat SVG tidak dihover */
+
+
+/* .selection A.active {
+    color: rgba(132, 103, 255, 0.80);
+}
+ */
+
+.notifications-count.hidden {
+    display: none; /* Menyembunyikan elemen dengan class hidden */
+}
+
+.selection A.active .notifications-selection .name-selection {
+    color: #6E49E9;
+    opacity: 1;
+    font-size: 15px;
+    font-family: 'Exo';
+}
+
+.selection A.active .notifications-selection svg {
+    stroke: #6E49E9;
+    fill: #6E49E9;
+}
+
+.notifications-selection svg {
+    fill: #8A8A8B;
+}
+
+.input-icon {
+    position: relative;
+}
+
+.iconify {
+    position: absolute;
+    left: 10px; /* Jarak antara ikon dan sisi kiri input */
+    top: 50%; /* Posisi vertikal tengah ikon */
+    transform: translateY(-50%); /* Pusatkan ikon secara vertikal */
+    color: #7E7F90; /* Warna ikon (sesuaikan dengan kebutuhan Anda) */
+    font-size: 16px; /* Ukuran ikon (sesuaikan dengan kebutuhan Anda) */
+}
+
+.input {
+    padding-left: 30px; /* Jarak antara ikon dan teks input */
+    /* Gaya input Anda */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
